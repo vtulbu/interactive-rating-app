@@ -1,0 +1,13 @@
+.card {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 20px;
+  padding: 40px 20px;
+  width: 340px;
+}
+
+@media (min-width: 1440px) {
+  .card {
+    width: 410px;
+    padding: 30px;
+  }
+}

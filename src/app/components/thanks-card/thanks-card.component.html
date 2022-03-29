@@ -1,0 +1,14 @@
+<img src="assets/img/illustration-thank-you.svg" alt="illustration-thank-you" />
+<div *ngIf="rating">
+  <h5>You selected {{ rating }} out of 5</h5>
+  <h2>Thank you!</h2>
+  <p>
+    We appreciate you taking the time to give a rating. If you ever need more
+    support, don't hesitate to get in touch!
+  </p>
+</div>
+
+<div *ngIf="!rating">
+  <p>Please go to the main page and give us a short feedback.</p>
+  <a routerLink="/">Home page</a>
+</div>

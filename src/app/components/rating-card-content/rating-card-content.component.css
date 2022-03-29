@@ -1,0 +1,35 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+img {
+  background-color: hsla(217, 12%, 63%, 0.1);
+  padding: 15px;
+  border-radius: 50%;
+  width: 45px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  color: #fff;
+  font-size: 22px;
+}
+
+p {
+  color: hsl(216, 12%, 54%);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+@media (min-width: 1440px) {
+  img {
+    padding: 16px;
+    width: 50px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+}

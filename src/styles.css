@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Overpass, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(25, 97%, 53%);
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fd984e;
+}
+
+a:active {
+  text-decoration: none;
+  color: #e26104;
+}

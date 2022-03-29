@@ -1,0 +1,13 @@
+<img src="assets/img/icon-star.svg" alt="icon star" />
+<h2>How did we do?</h2>
+<p>
+  Please let us know how we did with your support request. All feedback is
+  appreciated to help us improve our offering!
+</p>
+<app-rating-btn (onClickRating)="onClickRating($event)"></app-rating-btn>
+<app-button
+  [text]="'submit'"
+  [typeOfBtn]="'submit'"
+  [routerLink]="'submit'"
+  [stateData]="selectedRate"
+></app-button>

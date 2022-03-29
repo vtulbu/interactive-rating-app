@@ -1,0 +1,26 @@
+.rating-btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: hsla(217, 12%, 63%, 0.1);
+  border-radius: 50%;
+  font-weight: 700;
+  color: hsl(217, 12%, 63%);
+  width: 45px;
+  height: 45px;
+  transition: all 300ms ease-in-out;
+}
+
+.hovered {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.clicked {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}

@@ -1,0 +1,37 @@
+<div class="rating-btn-container" (mouseleave)="onOut()">
+  <button
+    (click)="onClick($event)"
+    (mouseover)="onHover($event)"
+    [ngClass]="{ hovered: hoveredButton >= 1, clicked: clickedButton === 1 }"
+  >
+    1
+  </button>
+  <button
+    (click)="onClick($event)"
+    (mouseover)="onHover($event)"
+    [ngClass]="{ hovered: hoveredButton >= 2, clicked: clickedButton === 2 }"
+  >
+    2
+  </button>
+  <button
+    (click)="onClick($event)"
+    (mouseover)="onHover($event)"
+    [ngClass]="{ hovered: hoveredButton >= 3, clicked: clickedButton === 3 }"
+  >
+    3
+  </button>
+  <button
+    (click)="onClick($event)"
+    (mouseover)="onHover($event)"
+    [ngClass]="{ hovered: hoveredButton >= 4, clicked: clickedButton === 4 }"
+  >
+    4
+  </button>
+  <button
+    (click)="onClick($event)"
+    (mouseover)="onHover($event)"
+    [ngClass]="{ hovered: hoveredButton >= 5, clicked: clickedButton === 5 }"
+  >
+    5
+  </button>
+</div>
