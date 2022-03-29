@@ -36,7 +36,7 @@ Users should be able to:
 
 - Mobile-first workflow
 - Flexbox
-- [Angular](https://angular.io/) - JS library
+- [Angular](https://angular.io/)
 
 ### What I learned
 
