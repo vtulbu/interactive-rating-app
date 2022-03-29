@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
--
+- Deployed on Vercel: [Vercel](https://interactive-rating-app.vercel.app/)
 
 ## My process
 
